@@ -7,6 +7,10 @@ ChatTube is a project that allows users to input a YouTube link, preprocess the 
 - **YouTube Link Processing**: Input a YouTube link, and the video will be preprocessed for further analysis.
 - **Query the Video**: Ask any question related to the video's content and get accurate responses.
 - **Generative AI Integration**: Leverage state-of-the-art AI models to understand and respond to queries about the video.
+- **Accessibility for Deaf Users**: Provide video data in accessible formats such as subtitles or transcripts, allowing deaf users to access video content effectively.
+- **Enhanced Productivity**: Streamline the process of obtaining video information to save time and increase productivity.
+
+![ChatTube](assests/Image.png)
 
 ## Tech Stack
 
