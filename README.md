@@ -19,6 +19,10 @@ ChatTube is a project that allows users to input a YouTube link, preprocess the 
 - **ChromaDB**: For managing and querying vector data efficiently.
 - **Streamlit**: For building the interactive web interface.
 - **Generative AI**: For understanding and generating responses based on the video content.
+- **Flask**: Backend framework for handling server-side logic and API endpoints.
+- **React JS / Redux Toolkit**: For building a dynamic and responsive frontend user interface.
+- **Query Pipeline**: To efficiently process and route user queries.
+- **RAG (Retrieval-Augmented Generation)**: To enhance response generation by retrieving relevant information from the processed video data.
 
 ## Getting Started
 
@@ -36,18 +40,27 @@ To get started with ChatTube, follow these steps:
    ```bash
    git clone https://github.com/Nipunkhattri/ChatTube.git
 
-2. Navigate to the project directory:
+2. Navigate to the Backend:
 
    ```bash
-   cd ChatTube
+   cd Backend
    
 3. Install of the packages
 
    ```bash
    pip install -r requirements.txt
    
-4. Run The Streamlit app
+4. Navigate to the frontend
    ```bash
-   streamlit run app.py
+   cd frontend
+
+5. Install All Packages
+   ```bash
+   npm install
+
+6. Run The celery Task in backend
+   ```bash
+   redis-server --port 6380
+   celery -A app.celery worker --loglevel=info
 
 ### Thank you for using ChatTube! We hope you find it useful for exploring and querying YouTube videos.
