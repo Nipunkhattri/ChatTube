@@ -10,7 +10,8 @@ ChatTube is a project that allows users to input a YouTube link, preprocess the 
 - **Accessibility for Deaf Users**: Provide video data in accessible formats such as subtitles or transcripts, allowing deaf users to access video content effectively.
 - **Enhanced Productivity**: Streamline the process of obtaining video information to save time and increase productivity.
 
-![ChatTube](assests/Image.png)
+![ChatTube](assests/ChatTube1.png)
+![ChatTube](assests/ChatTube2.png)
 
 ## Tech Stack
 
