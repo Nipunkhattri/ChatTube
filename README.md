@@ -17,7 +17,6 @@ ChatTube is a project that allows users to input a YouTube link, preprocess the 
 
 - **llamaIndex**: For indexing and querying the video data.
 - **ChromaDB**: For managing and querying vector data efficiently.
-- **Streamlit**: For building the interactive web interface.
 - **Generative AI**: For understanding and generating responses based on the video content.
 - **Flask**: Backend framework for handling server-side logic and API endpoints.
 - **React JS / Redux Toolkit**: For building a dynamic and responsive frontend user interface.
