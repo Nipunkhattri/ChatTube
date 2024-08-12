@@ -1,0 +1,294 @@
+.home {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.toggle {
+    height: 100vh;
+    width: 17%;
+    background-color: #171717;
+    /* display: flex;
+    flex-direction: column;
+    /* justify-content:center;
+    align-items: center; */
+}
+
+.container {
+    height: 100vh;
+    width: 83%;
+    background-color: #212121;
+}
+
+.txt {
+    height: 55px;
+    width: 90%;
+    color: aliceblue;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* border: 1px solid gray; */
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #212121;
+}
+
+.toggle_btn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.logo_home {
+    height: 50px;
+}
+
+.logo_home_c {
+    height: 90px;
+}
+
+.answer_box {
+    height: 85%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.query {
+    height: 15%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.b1 {
+    height: 120px;
+    width: 200px;
+    border: 1px solid #383838;
+    border-radius: 20px;
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.b1:hover {
+    background-color: #2f2f2f;
+}
+
+.query_input {
+    height: 80px;
+    width: 80%;
+    background-color: #383838;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    font-size: 20px;
+    outline: none;
+    color: white;
+    padding-left: 30px;
+    margin-left: 30px;
+}
+
+.a1 {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.q1 {
+    font-size: 23px;
+    text-align: center;
+    margin: 0px 0px;
+    font-weight: 400;
+    padding-left: 10px;
+    /* padding-right: 10px; */
+}
+
+.send {
+    position: absolute;
+    right: 8%;
+    cursor: pointer;
+    top: 87%;
+}
+
+.earlier_video {
+    height: 55px;
+    width: 95%;
+    margin-bottom: 10px;
+    background-color: #212121;
+    /* background: none; */
+    border: none;
+    display: flex;
+    align-items: start;
+    color: white;
+    padding-left: 15px;
+    cursor: pointer;
+}
+
+.OpenUploadModal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(77, 44, 119, 0.55);
+    z-index: 1000;
+}
+
+.modelConatiner {
+    background-color: white;
+    width: 648px;
+    height: 363px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 36px 16px 36px 16px;
+    font-size: 16px;
+    gap: 20px;
+    text-align: center;
+}
+
+.loader {
+    /* margin-bottom: 30px; */
+    width: 60px;
+    aspect-ratio: 2;
+    --_g: no-repeat radial-gradient(circle closest-side, #fff 90%, #0000);
+    background:
+        var(--_g) 0% 50%,
+        var(--_g) 50% 50%,
+        var(--_g) 100% 50%;
+    background-size: calc(100%/3) 50%;
+    animation: l3 1s infinite linear;
+}
+
+.loader1 {
+    /* margin-bottom: 30px; */
+    width: 60px;
+    aspect-ratio: 2;
+    --_g: no-repeat radial-gradient(circle closest-side, #000 90%, #0000);
+    background:
+        var(--_g) 0% 50%,
+        var(--_g) 50% 50%,
+        var(--_g) 100% 50%;
+    background-size: calc(100%/3) 50%;
+    animation: l3 1s infinite linear;
+}
+
+@keyframes l3 {
+    20% {
+        background-position: 0% 0%, 50% 50%, 100% 50%
+    }
+
+    40% {
+        background-position: 0% 100%, 50% 0%, 100% 50%
+    }
+
+    60% {
+        background-position: 0% 50%, 50% 100%, 100% 0%
+    }
+
+    80% {
+        background-position: 0% 50%, 50% 50%, 100% 100%
+    }
+}
+
+.parent-container {
+    height: 300px;
+    /* Adjust height as needed */
+    width: 100%;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+}
+
+.child-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.right {
+    order: 2;
+}
+
+.left {
+    order: 1;
+}
+
+.IdName {
+    position: absolute;
+    top: 5px;
+    left: 330px;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+}
+
+.chat {
+    height: 77%;
+    width: 90%;
+    overflow-y: scroll;
+    /* background-color: antiquewhite; */
+}
+
+.User {
+    font-size: 30px;
+    color: white;
+    font-weight: 500;
+    margin: 2px 0px;
+}
+
+.Ai {
+    font-size: 20px;
+    color: rgb(197, 194, 194);
+    font-weight: 300;
+}
+
+.user_img {
+    height: 30px;
+    width: 30px;
+    margin-right: 20px;
+}
+
+.ai_img {
+    height: 30px;
+    width: 30px;
+    margin-right: 20px;
+}
+
+.user_message_div {
+    display: flex;
+    margin: 2px 0px;
+    align-items: center;
+}
+
+.ai_message_div {
+    display: flex;
+    align-items: center;
+    margin: 2px 0px;
+}
+.chatheading{
+    color: white;
+    margin: 0px 0px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 30px;
+}

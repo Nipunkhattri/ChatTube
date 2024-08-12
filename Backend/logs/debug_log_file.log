@@ -1,0 +1,9 @@
+2024-07-27T19:48:17.815898+0530 DEBUG tasks /home/nipunkhatri/Desktop/LLM Projects/Backend/celery_tasks/collections/tasks.py:7 Vx6fd
+2024-07-27T19:48:17.816287+0530 DEBUG tasks /home/nipunkhatri/Desktop/LLM Projects/Backend/celery_tasks/collections/tasks.py:8 1
+2024-07-27T19:48:17.816382+0530 DEBUG tasks /home/nipunkhatri/Desktop/LLM Projects/Backend/celery_tasks/collections/tasks.py:9 http://link.com
+2024-07-27T20:28:00.453260+0530 DEBUG tasks /home/nipunkhatri/Desktop/LLM Projects/Backend/celery_tasks/collections/tasks.py:7 DqRVF
+2024-07-27T20:28:00.454042+0530 DEBUG tasks /home/nipunkhatri/Desktop/LLM Projects/Backend/celery_tasks/collections/tasks.py:8 1
+2024-07-27T20:28:00.454399+0530 DEBUG tasks /home/nipunkhatri/Desktop/LLM Projects/Backend/celery_tasks/collections/tasks.py:9 https://www.youtube.com/watch?v=67_aMPDk2zw
+2024-07-27T20:58:09.938072+0530 DEBUG tasks /home/nipunkhatri/Desktop/LLM Projects/Backend/celery_tasks/collections/tasks.py:109 https://www.youtube.com/watch?v=LFs2z7UUDJU
+2024-07-29T01:58:02.805199+0530 DEBUG auth /home/nipunkhatri/Desktop/LLM Projects/Backend/helpers/auth.py:22 Missing Authorization Header
+2024-07-31T14:23:39.408667+0530 DEBUG auth /home/nipunkhatri/Desktop/LLM Projects/Backend/helpers/auth.py:22 Missing Authorization Header

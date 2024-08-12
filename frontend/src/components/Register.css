@@ -1,0 +1,77 @@
+.call{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.logo{
+  height:80px;
+}
+.logo_container{
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.register_container{
+  height:50vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.register_form{
+  height: 500px;
+  width:400px;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  font-family: initial;
+  flex-direction: column;
+  align-items: center;
+}
+.emailbox{
+  height: 45px;
+  width:80%;
+  border-radius: 6px;
+  border: 1px solid gray;
+  font-size: 18px;
+  /* border: none; */
+  outline: none;
+  margin-bottom: 20px;
+}
+input::placeholder{
+  padding-left: 20px;
+}
+.btn_submit{
+  height: 45px;
+  width: 80%;
+  background-color: #0E9272;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  color: white;
+}
+.h_line{
+  height: 1px;
+  width: 40%;
+  background-color: gray;
+}
+.h_contain{
+  display: flex;
+  width: 80%;
+  margin-bottom: 10px;
+}
+.Google_btn{
+  height: 45px;
+  width: 80%;
+  border: 1px solid gray;
+  border-radius: 6px;
+  font-size: 18px;
+  color: black;
+  background-color: white;
+}
